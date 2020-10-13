@@ -3,8 +3,12 @@
 ### Description
 Offers a simple interface to manage responses from the domain layer to the presentation layer
 
+### Release Notes
+*  1.0.1 - Added class to assist in api controllers
+
 ### Versions
-*  1.0.0 (Latest/Stable)
+*  1.0.1 (Latest/Stable)
+*  1.0.1 (Deprecated)
 
 ### When should I use?
 Use when you want to handle responses from the domain or application layer of your system and present them in the presentation layer
@@ -16,17 +20,17 @@ A suggestion to implement in your application, you should run an instance of the
 
 ### How to install
 *  Package Manager
-      *  `Install-Package BasicResult_SimpleResponse_Helper -Version 1.0.0`
+      *  `Install-Package BasicResult_SimpleResponse_Helper -Version 1.0.1`
 *  .NET CLI
-      *  `dotnet add package BasicResult_SimpleResponse_Helper --version 1.0.0`
+      *  `dotnet add package BasicResult_SimpleResponse_Helper --version 1.0.1`
 *  Package Reference (copy this XML node into the project file to reference the package)
-      *  `<PackageReference Include="BasicResult_SimpleResponse_Helper" Version="1.0.0" />`
+      *  `<PackageReference Include="BasicResult_SimpleResponse_Helper" Version="1.0.1" />`
 
 ### Depedencies
 *  Microsoft.AspNetCore.Mvc.Core (>= 2.2.5)
 
 ### See More 
-https://www.nuget.org/packages/BasicResult_SimpleResponse_Helper/1.0.0#
+https://www.nuget.org/packages/BasicResult_SimpleResponse_Helper/1.0.1#
 
 ### Author 
 Henrique Matias
