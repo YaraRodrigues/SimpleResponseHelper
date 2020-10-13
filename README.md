@@ -11,6 +11,9 @@ Offers a simple interface to manage responses from the domain layer to the prese
 *  Package Reference (copy this XML node into the project file to reference the package)
       *  `<PackageReference Include="BasicResult_SimpleResponse_Helper" Version="1.0.0" />`
 
+### Depedencies
+*  Microsoft.AspNetCore.Mvc.Core (>= 2.2.5)
+
 ### See More 
 https://www.nuget.org/packages/BasicResult_SimpleResponse_Helper/1.0.0#
 
