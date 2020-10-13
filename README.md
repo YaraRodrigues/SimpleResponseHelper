@@ -3,6 +3,9 @@
 ### Description
 Offers a simple interface to manage responses from the domain layer to the presentation layer
 
+### Versions
+*  1.0.0 (Latest/Stable)
+
 ### How to install
 *  Package Manager
       *  `Install-Package BasicResult_SimpleResponse_Helper -Version 1.0.0`
