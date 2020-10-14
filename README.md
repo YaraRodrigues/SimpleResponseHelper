@@ -17,6 +17,10 @@ Use when you want to handle responses from the domain or application layer of yo
 A suggestion to implement in your application, you should run an instance of the "Response" class at your application tier and perform the necessary handling of your business rules flow. When returning to the presentation layer, you can extend the ApiController controller and use the "SimpleResponse" methods to obtain an "IActionResult" based on the "IsSuccess" parameter, or if you prefer a more elaborate response, use "HttpResponse", which will take taking into account the HTTP status code, entered in the "HttpCode" attribute of the instantiated object of the "Response" class.
 
 ### Examples
+![Success Test](https://github.com/hm-henriquematias/SimpleResponseHelper/blob/main/demo/images/SuccessTest.png?raw=true)  
+![Error Test](https://github.com/hm-henriquematias/SimpleResponseHelper/blob/main/demo/images/ErrorTest.png?raw=true)  
+![Test basead on http code](https://github.com/hm-henriquematias/SimpleResponseHelper/blob/main/demo/images/BaseadOnHttpCodeTest.png?raw=true)  
+
 
 ### How to install
 *  Package Manager
